@@ -36,11 +36,5 @@ Provides API endpoints to manage a movie database. Each movie belongs to a genre
 ## Getting Started
 
 1. Set your SQL Server connection string in `appsettings.json`.
-2. Apply migrations:
-   ```bash
-   dotnet ef database update
-   ```
-3. Run the API:
-   ```bash
-   dotnet run --project MoviesAPI
-   ```
+2. Apply migrations: `dotnet ef database update`
+3. Run: `dotnet run --project MoviesAPI`
